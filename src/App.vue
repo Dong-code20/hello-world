@@ -122,6 +122,13 @@ export default {
 			this.desc = `${rank}年级${((index - 1) % 3) + 1}班学生统计`;
 		},
 	},
+	mounted() {
+		let api =
+			"/api/simpleWeather/query?key=3fc810107659ac97b44d3d5351a05b85&city=%E8%8B%8F%E5%B7%9E";
+		this.axios.get(api).then((res) => {
+			console.log("res===", res);
+		});
+	},
 };
 </script>
 
