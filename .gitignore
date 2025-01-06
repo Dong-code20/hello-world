@@ -21,3 +21,9 @@ pnpm-debug.log*
 *.njsproj
 *.sln
 *.sw?
+
+# VS Code 临时文件
+.history/
+*.*.*.*.vue
+App.*.vue
+HelloWorld.*.vue
